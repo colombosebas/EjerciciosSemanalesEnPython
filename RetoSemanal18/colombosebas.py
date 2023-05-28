@@ -1,5 +1,20 @@
+#Reto semanal 18
+# /*
+#  * El día 128 del año celebramos en la comunidad el "Hola Mundo day"
+#  * Vamos a hacer "web scraping" sobre su sitio web: https://holamundo.day
+#  *
+#  * Crea un programa que se conecte a la web del evento e imprima únicamente la agenda de eventos
+#  * del día 8. Mostrando hora e información de cada uno.
+#  * Ejemplo: "16:00 | Bienvenida"
+#  *
+#  * Se permite utilizar librerías que nos faciliten esta tarea.
+#  *
+#  */
+
 import requests
 from bs4 import BeautifulSoup
+
+
 import xml.etree.ElementTree as ET
 
 # Bueno es un poco rebuscado pero salió, basicamente lo que hago es obtener todo el html de la web y luego lo analizo con el ElementTree

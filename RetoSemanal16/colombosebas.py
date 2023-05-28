@@ -1,3 +1,5 @@
+#Reto semanal 16
+
 numeroEscalones = int(input('Ingresa el número de escalones que deseas para tu escalera: '))
 if numeroEscalones == 0:
     print('__')
